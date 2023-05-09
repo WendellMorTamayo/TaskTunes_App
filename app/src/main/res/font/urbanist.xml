@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/urbanist_regular"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+    <font
+        android:font="@font/urbanist_italic"
+        android:fontStyle="italic"
+        android:fontWeight="400" />
+
+    <font
+        android:font="@font/urbanist_bold"
+        android:fontStyle="normal"
+        android:fontWeight="700" />
+
+    <font
+        android:font="@font/urbanist_bold_italic"
+        android:fontStyle="italic"
+        android:fontWeight="700" />
+    <font
+        android:font="@font/jakartasans_regular"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+    <!-- Add any additional font styles you have -->
+</font-family>

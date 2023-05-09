@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.tasktunesapp'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.tasktunesapp"
+        minSdk 26
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '33.0.2'
+    ndkVersion '21.0.6113669'
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0'
+        force 'org.jetbrains.kotlin:kotlin-stdlib:1.6.0'
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation "androidx.core:core-ktx:1.10.0"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+//    implementation "org.slf4j:slf4j-android:1.7.36"
+//    implementation "com.sothree.slidinguppanel:library:3.4.0"
+//    implementation 'com.github.KunMinX:Jetpack-MusicPlayer:4.1.0'
+//    implementation 'com.github.KunMinX.KeyValueX:keyvalue:3.7.0-beta'
+//    annotationProcessor 'com.github.KunMinX.KeyValueX:keyvalue-compiler:3.7.0-beta'
+}

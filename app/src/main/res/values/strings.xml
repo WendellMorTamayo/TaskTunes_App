@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- gradient_background strings -->
+
+    <string name="app_name">TaskTunes</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="tasktunes">TASKTUNES</string>
+    <string name="keep_your_task_in_tune">Keep your task in tune</string>
+    <string name="logo">Logo</string>
+    <string name="search">search</string>
+    <string name="dashboard">Dashboard</string>
+</resources>
