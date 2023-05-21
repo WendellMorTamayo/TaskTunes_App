@@ -14,16 +14,17 @@
         android:theme="@style/Theme.TaskTunesApp"
         tools:targetApi="31">
         <activity
-            android:name=".Dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".WelcomeScreen"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".Common.WelcomeScreen"
+            android:exported="false" />
+
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Common.SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>

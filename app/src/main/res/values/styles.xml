@@ -2,10 +2,73 @@
 <resources>
 	<!-- gradient_background styles -->
 
-	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-		<item name="colorPrimary">@color/colorPrimary</item>
+	<style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@color/colorAccent</item>
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
 		<item name="colorAccent">@color/colorAccent</item>
 	</style>
+
+	<style name="ButtonGroupTheme" parent="Theme.Material3.DayNight.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorOnPrimary">@color/colorAccent</item>
+		<item name="textAppearanceLabelLarge">@style/TextAppearance.App.Button</item>
+	</style>
+
+	<style name="TextAppearance.App.Button" parent="TextAppearance.Material3.LabelLarge">
+		<item name="fontFamily">@font/urbanist_bold</item>
+		<item name="android:fontFamily">@font/urbanist_bold</item>
+		<item name="android:textSize">10sp</item>
+	</style>
+
+	<style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+
+		<item name="borderlessButtonStyle">@style/Widget.App.Button.TextButton</item>
+		<item name="materialButtonOutlinedStyle">@style/Widget.App.Button.OutlinedButton</item>
+		<item name="materialButtonStyle">@style/Widget.App.Button</item>
+		<item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+	</style>
+
+	<style name="Widget.App.Button.TextButton" parent="Widget.Material3.Button.TextButton">
+		<item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+		<item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+		<item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+		</style>
+
+		<style name="Widget.App.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+		<item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+		<item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+		<item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+		</style>
+
+		<style name="Widget.App.Button" parent="Widget.Material3.Button">
+		<item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+		<item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+		<item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+		</style>
+
+		<style name="ThemeOverlay.App.Button.TextButton" parent="">
+		<item name="colorPrimary">@color/colorPrimary</item>
+	</style>
+
+	<style name="ThemeOverlay.App.Button" parent="">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorOnPrimary">@color/colorAccent</item>
+	</style>
+
+	<style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+		<item name="cornerFamily">cut</item>
+		<item name="cornerSize">4dp</item>
+	</style>
+
+	<style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+		<item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+	</style>
+
+	<style name="ThemeOverlay.App.BottomNavigationView" parent="">
+		<item name="colorSurface">@color/white</item>
+		<item name="colorOnSurfaceVariant">@color/bg_color</item>
+	</style>
+
+
 
 </resources>

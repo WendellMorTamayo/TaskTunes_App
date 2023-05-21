@@ -2,9 +2,10 @@
 <resources>
 	<!-- gradient_background colors -->
 
-	<color name="colorPrimary">#008577</color>
-	<color name="colorPrimaryDark">#00574B</color>
-	<color name="colorAccent">#D81B60</color>
+	<color name="colorPrimary">#04142D</color>
+	<color name="colorPrimaryDark">#1E1E1E</color>
+	<color name="colorAccent">#0E49A5</color>
+	<color name="colorButtonSelected">#0E49A5</color>
 	<color name="purple_200">#FFBB86FC</color>
 	<color name="purple_500">#FF6200EE</color>
 	<color name="purple_700">#FF3700B3</color>

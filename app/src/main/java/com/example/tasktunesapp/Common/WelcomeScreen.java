@@ -1,4 +1,4 @@
-package com.example.tasktunesapp;
+package com.example.tasktunesapp.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,10 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.tasktunesapp.Dashboard;
+import com.example.tasktunesapp.MainActivity;
+import com.example.tasktunesapp.R;
 
 public class WelcomeScreen extends AppCompatActivity {
 
@@ -31,7 +35,7 @@ public class WelcomeScreen extends AppCompatActivity {
             public void onClick(View view) {
                 setFirstTimeLaunchFlag();
 
-                Intent intent = new Intent(WelcomeScreen.this, Dashboard.class);
+                Intent intent = new Intent(WelcomeScreen.this, MainActivity.class);
                 startActivity(intent);
 
                 finish();

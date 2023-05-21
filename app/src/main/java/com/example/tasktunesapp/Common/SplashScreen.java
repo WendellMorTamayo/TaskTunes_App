@@ -1,4 +1,4 @@
-package com.example.tasktunesapp;
+package com.example.tasktunesapp.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,8 +14,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.tasktunesapp.Dashboard;
+import com.example.tasktunesapp.MainActivity;
+import com.example.tasktunesapp.R;
+
 public class SplashScreen extends AppCompatActivity {
-    private static int SPLASH_SCREEN = 4000;
+    private static int SPLASH_SCREEN = 2000;
     ImageView imageView;
     TextView txtTaskTunes, txtTagline;
     Button btnLetsGo;
@@ -50,7 +54,7 @@ public class SplashScreen extends AppCompatActivity {
                     Intent intent = new Intent(SplashScreen.this, WelcomeScreen.class);
                     startActivity(intent);
                 } else {
-                    Intent intent = new Intent(SplashScreen.this, Dashboard.class);
+                    Intent intent = new Intent(SplashScreen.this, MainActivity.class);
                     startActivity(intent);
                 }
                 finish();
