@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_fragment_music.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\fragment_music.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_urbanist_italic.ttf.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\urbanist_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_urbanist.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\urbanist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_settings.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_urbanist_bold.ttf.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\urbanist_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_group27.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\group27.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_fragment_search_bar.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\fragment_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_h_fragment_exit.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\h_fragment_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_musicplayer.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\musicplayer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_h_fragment_pop_exit.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\h_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_library.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\library.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_horizontal_line.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\horizontal_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_ic_backbtn.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\ic_backbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_fragment_song__list.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\fragment_song__list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_jakartasans_regular.ttf.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\jakartasans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_top_animation.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\top_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_image_background_rounded.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\image_background_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_urbanist_regular.ttf.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\urbanist_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_logo_transparent.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\logo_transparent.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_search_layout.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\search_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_headphone.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\headphone.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_musicplayer_panel.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\musicplayer_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_h_fragment_enter.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\h_fragment_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_music_note.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\music_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\font_urbanist_bold_italic.ttf.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\font\\urbanist_bold_italic.ttf"
+    },
+    {
+        "merged": "com.example.tasktunesapp-merged_res-40:/layout_fragment_media_player.xml.flat",
+        "source": "com.example.tasktunesapp-main-42:/layout/fragment_media_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_bottom_animation.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\bottom_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_ic_music.jpg.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\ic_music.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_task_card.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\task_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_custom_gradient.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\custom_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_searchview_background.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\searchview_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_home_alt_fill.png.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\home_alt_fill.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_anim.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_fragment_media_player.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\fragment_media_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_activity_welcome_screen.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\activity_welcome_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\drawable_ripple_effect.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\drawable\\ripple_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\anim_h_fragment_pop_enter.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\anim\\h_fragment_pop_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-merged_res-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.0\\com.example.tasktunesapp-main-42:\\xml\\backup_rules.xml"
+    }
+]
