@@ -5,17 +5,20 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
+import android.widget.TextView;
 
 import com.example.tasktunesapp.Fragments.HomeFragment;
 import com.example.tasktunesapp.Fragments.MusicFragment;
-import com.example.tasktunesapp.Fragments.SearchBarFragment;
+import com.example.tasktunesapp.Model.AudioModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,11 +26,15 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNav;
     Fragment homeFragment;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bottomNav = findViewById(R.id.bottomNavBar);
+
+
+
         bottomNav.setSelectedItemId(R.id.home);
         setColorStateNavBar(bottomNav);
         bottomNav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
@@ -84,4 +91,5 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.searchFrame, fragment);
         fragmentTransaction.commit();
     }
+
 }
