@@ -16,111 +16,126 @@
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 12-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:6:5-79
 12-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:6:22-77
-13
-14    <permission
-14-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
-15        android:name="com.example.tasktunesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
-16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
-17
-18    <uses-permission android:name="com.example.tasktunesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\Lenovo\.gradle\caches\transforms-3\d8e3f4acad9ca6d9f0018f9a32f0b5a7\transformed\exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\Lenovo\.gradle\caches\transforms-3\d8e3f4acad9ca6d9f0018f9a32f0b5a7\transformed\exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.tasktunesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 19
-20    <application
-20-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:8:5-37:19
-21        android:allowBackup="true"
-21-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:9:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
-23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:10:9-65
-24        android:debuggable="true"
-25        android:extractNativeLibs="false"
-26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:11:9-54
-27        android:icon="@drawable/logo"
-27-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:12:9-38
-28        android:label="@string/app_name"
-28-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:13:9-41
-29        android:supportsRtl="true"
-29-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.TaskTunesApp" >
-31-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:15:9-50
-32        <activity
-32-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:17:9-19:40
-33            android:name="com.example.tasktunesapp.MainActivity"
-33-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:18:13-41
-34            android:exported="false" />
-34-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:19:13-37
-35        <activity
-35-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:20:9-22:40
-36            android:name="com.example.tasktunesapp.Common.WelcomeScreen"
-36-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:21:13-49
-37            android:exported="false" />
-37-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:22:13-37
-38        <activity
-38-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:24:9-26:40
-39            android:name="com.example.tasktunesapp.Dashboard"
-39-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:25:13-38
-40            android:exported="false" />
-40-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:26:13-37
-41        <activity
-41-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:27:9-36:20
-42            android:name="com.example.tasktunesapp.Common.SplashScreen"
-42-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:28:13-48
-43            android:exported="true"
-43-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:29:13-36
-44            android:theme="@style/Theme.AppCompat.NoActionBar" >
-44-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:30:13-63
-45            <intent-filter>
-45-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:31:13-35:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:32:17-69
-46-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:32:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:34:17-77
-48-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:34:27-74
-49            </intent-filter>
-50        </activity>
-51
-52        <provider
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-53            android:name="androidx.startup.InitializationProvider"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-54            android:authorities="com.example.tasktunesapp.androidx-startup"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-55            android:exported="false" >
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-56            <meta-data
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-58                android:value="androidx.startup" />
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-59            <meta-data
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-61                android:value="androidx.startup" />
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-62        </provider>
-63
-64        <uses-library
-64-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-65            android:name="androidx.window.extensions"
-65-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-66            android:required="false" />
-66-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-67        <uses-library
-67-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-68            android:name="androidx.window.sidecar"
-68-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-69            android:required="false" />
-69-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-70    </application>
-71
-72</manifest>
+20    <uses-permission android:name="com.example.tasktunesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:9:5-38:19
+23        android:allowBackup="true"
+23-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\84cc332021cc0dd147eba3bdb6ebd8c2\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:12:9-54
+29        android:icon="@drawable/logo"
+29-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:13:9-38
+30        android:label="@string/app_name"
+30-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:14:9-41
+31        android:supportsRtl="true"
+31-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.TaskTunesApp" >
+33-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:16:9-50
+34        <activity
+34-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:18:9-20:40
+35            android:name="com.example.tasktunesapp.MainActivity"
+35-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="false" />
+36-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:20:13-37
+37        <activity
+37-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:21:9-23:40
+38            android:name="com.example.tasktunesapp.Common.WelcomeScreen"
+38-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:22:13-49
+39            android:exported="false" />
+39-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:23:13-37
+40        <activity
+40-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.tasktunesapp.Dashboard"
+41-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:26:13-38
+42            android:exported="false" />
+42-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:27:13-37
+43        <activity
+43-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:28:9-37:20
+44            android:name="com.example.tasktunesapp.Common.SplashScreen"
+44-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:29:13-48
+45            android:exported="true"
+45-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:30:13-36
+46            android:theme="@style/Theme.AppCompat.NoActionBar" >
+46-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:31:13-63
+47            <intent-filter>
+47-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:32:13-36:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:33:17-69
+48-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:35:17-77
+50-->C:\Users\Lenovo\StudioProjects\TaskTunes_App\app\src\main\AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.tasktunesapp.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+72
+73        <provider
+73-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-3\ce44685574efb15c925489de3f1c6f34\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+74            android:name="com.squareup.picasso.PicassoProvider"
+74-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-3\ce44685574efb15c925489de3f1c6f34\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+75            android:authorities="com.example.tasktunesapp.com.squareup.picasso"
+75-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-3\ce44685574efb15c925489de3f1c6f34\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+76            android:exported="false" />
+76-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-3\ce44685574efb15c925489de3f1c6f34\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+77    </application>
+78
+79</manifest>

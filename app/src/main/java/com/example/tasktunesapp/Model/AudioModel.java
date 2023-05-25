@@ -1,6 +1,8 @@
 package com.example.tasktunesapp.Model;
 
 import java.io.Serializable;
+import com.bumptech.glide.Glide;
+import android.graphics.Bitmap;
 
 public class AudioModel implements Serializable {
     String title;
@@ -8,6 +10,7 @@ public class AudioModel implements Serializable {
     String album;
     String path;
     long duration;
+    Bitmap albumCover;
 
     public AudioModel(String title, String artist, String album, String path, long duration) {
         this.title = title;
@@ -55,5 +58,13 @@ public class AudioModel implements Serializable {
 
     public long getDuration() {
         return duration;
+    }
+
+    public Bitmap getAlbumCover() {
+        return albumCover;
+    }
+
+    public void setAlbumCover(Bitmap albumCover) {
+        this.albumCover = albumCover;
     }
 }

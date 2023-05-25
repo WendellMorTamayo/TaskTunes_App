@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomBottomSheetBehavior"></declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="spl_disableSliding" format="boolean"/>
+        <attr name="spl_expandThreshold" format="float"/>
+        <attr name="spl_collapseThreshold" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomNavigationBar">
+        <attr name="cnb_tabs" format="reference"/>
+        <attr name="cnb_backgroundColor" format="color"/>
+        <attr name="cnb_indicatorColor" format="dimension"/>
+        <attr name="cnb_indicatorHeight" format="dimension"/>
+        <attr name="cnb_initialIndex" format="integer"/>
+        <attr name="cnb_textColor" format="color"/>
+        <attr name="cnb_iconColor" format="color"/>
+        <attr name="cnb_iconSize" format="dimension"/>
+        <attr name="cnb_textSize" format="dimension"/>
+        <attr name="cnb_activeItemType" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="icon" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="behavior_anchorOffset" format="dimension"/>
+        <attr name="behavior_defaultState" format="enum">
+            <enum name="expanded" value="3"/>
+            <enum name="collapsed" value="4"/>
+            <enum name="hidden" value="5"/>
+            <enum name="anchored" value="6"/>
+        </attr>
+        <attr name="behavior_skipAnchored" format="boolean"/>
+    </declare-styleable>
 </resources>

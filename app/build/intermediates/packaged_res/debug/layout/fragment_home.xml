@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_color"
+    android:background="@drawable/gradient_bg"
     tools:context=".Fragments.HomeFragment">
 
 
@@ -76,29 +76,38 @@
     <com.google.android.material.button.MaterialButtonToggleGroup
         android:id="@+id/btnToggle"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_height="64dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="190dp"
-        android:theme="@style/ButtonGroupTheme"
+        android:layout_marginTop="185dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#00FFFFFF"
         app:selectionRequired="true"
-        app:singleSelection="true">
+        app:singleSelection="true"
+        android:maxWidth="100dp"
+        android:padding="5dp">
 
         <Button
             android:id="@+id/button1"
             style="?attr/materialButtonOutlinedStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Ongoing Task"
+            android:text="Ongoing"
+            android:fontFamily="@font/urbanist_bold"
+            android:textSize="12sp"
+            android:backgroundTint="#00FFFFFF"
             android:textColor="@color/white"
-            app:strokeWidth="0dp" />
+            app:strokeWidth="0dp"/>
 
         <Button
             android:id="@+id/button2"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Upcoming Task"
+            android:text="Upcoming"
+            android:fontFamily="@font/urbanist_bold"
+            android:textSize="12sp"
+            android:backgroundTint="#00FFFFFF"
             android:textColor="@color/white"
             app:strokeWidth="0dp" />
 
@@ -107,7 +116,10 @@
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Completed Task"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Completed"
+            android:fontFamily="@font/urbanist_bold"
+            android:textSize="12sp"
             android:textColor="@color/white"
             app:strokeWidth="0dp" />
     </com.google.android.material.button.MaterialButtonToggleGroup>

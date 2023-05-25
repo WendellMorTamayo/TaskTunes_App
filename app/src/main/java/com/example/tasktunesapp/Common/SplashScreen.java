@@ -22,15 +22,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.tasktunesapp.Dashboard;
-import com.example.tasktunesapp.Fragments.HomeFragment;
 import com.example.tasktunesapp.MainActivity;
 import com.example.tasktunesapp.R;
 
-import permissions.dispatcher.NeedsPermission;
-import permissions.dispatcher.OnNeverAskAgain;
-import permissions.dispatcher.OnPermissionDenied;
-import permissions.dispatcher.OnShowRationale;
 public class SplashScreen extends AppCompatActivity {
     private static int SPLASH_SCREEN = 2000;
     private static final String PERMISSION_READ_MEDIA_AUDIO = Manifest.permission.READ_EXTERNAL_STORAGE;

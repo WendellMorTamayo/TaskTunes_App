@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tasktunesapp-mergeDebugResources-38:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.tasktunesapp-mergeDebugResources-48:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-3\\af7f6d9bdd04bc7efe13578c026c53d7\\transformed\\material-1.10.0-alpha03\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",

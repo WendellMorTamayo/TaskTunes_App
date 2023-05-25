@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import com.example.tasktunesapp.Adapter.MusicListAdapter;
 import com.example.tasktunesapp.Model.AudioModel;
 import com.example.tasktunesapp.R;
+import com.realgear.multislidinguppanel.MultiSlidingUpPanelLayout;
 
 import java.util.ArrayList;
 
@@ -21,6 +22,7 @@ public class SongListFragment extends Fragment {
     private RecyclerView recyclerView;
     private MusicListAdapter adapter;
     private ArrayList<AudioModel> songsList;
+    private MultiSlidingUpPanelLayout panelLayout;
 
     public SongListFragment(ArrayList<AudioModel> songsList) {
         this.songsList = songsList;

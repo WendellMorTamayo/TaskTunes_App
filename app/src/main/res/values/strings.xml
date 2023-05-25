@@ -19,4 +19,8 @@
     <string name="permission_audio_denied">Permission denied</string>
     <string name="permission_audio_rationale">This app requires access to your device\'s audio for recording and playback.</string>
     <string name="now_playing">Now Playing</string>
+    <string name="_0_00_00">0:00:00</string>
+    <string name="_1x">1x</string>
+    <string name="notification_channel_description">Description</string>
+    <string name="notification_channel_name">Channel Name</string>
 </resources>

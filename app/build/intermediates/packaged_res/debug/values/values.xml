@@ -14,6 +14,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_40_percent_opacity">#19FFFFFF</color>
+    <dimen name="mediaplayerbar_height">64dp</dimen>
+    <dimen name="navigation_bar_height">54dp</dimen>
+    <string name="_0_00_00">0:00:00</string>
+    <string name="_1x">1x</string>
     <string name="app_name">TaskTunes</string>
     <string name="button_allow">Allow</string>
     <string name="button_deny">Deny</string>
@@ -23,6 +27,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="keep_your_task_in_tune">Keep your task in tune</string>
     <string name="logo">Logo</string>
+    <string name="notification_channel_description">Description</string>
+    <string name="notification_channel_name">Channel Name</string>
     <string name="now_playing">Now Playing</string>
     <string name="permission_audio_denied">Permission denied</string>
     <string name="permission_audio_rationale">This app requires access to your device\'s audio for recording and playback.</string>
@@ -36,10 +42,11 @@
 		<item name="colorAccent">@color/colorAccent</item>
 	</style>
     <style name="ButtonGroupTheme" parent="Theme.Material3.DayNight.NoActionBar">
-		<item name="colorPrimary">@color/colorPrimary</item>
-		<item name="colorOnPrimary">@color/colorAccent</item>
+		<item name="colorPrimary">#00FFFFFF</item>
+		<item name="colorOnPrimary">#00FFFFFF</item>
 		<item name="textAppearanceLabelLarge">@style/TextAppearance.App.Button</item>
 	</style>
+    <style name="CustomCardViewStyle"/>
     <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
 		<item name="cornerFamily">cut</item>
 		<item name="cornerSize">4dp</item>
@@ -50,7 +57,6 @@
 		<item name="android:textSize">10sp</item>
 	</style>
     <style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
-
 		<item name="borderlessButtonStyle">@style/Widget.App.Button.TextButton</item>
 		<item name="materialButtonOutlinedStyle">@style/Widget.App.Button.OutlinedButton</item>
 		<item name="materialButtonStyle">@style/Widget.App.Button</item>
@@ -92,7 +98,7 @@
 		<item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
 		<item name="android:textAppearance">@style/TextAppearance.App.Button</item>
 		<item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
-		<item name="android:textSize">15sp</item>
+		<item name="android:textSize">20sp</item>
 		<item name="android:textColor">@color/white</item>
 		<item name="android:fontFamily">@font/urbanist_bold</item>
 	</style>
@@ -101,5 +107,34 @@
 		<item name="android:textAppearance">@style/TextAppearance.App.Button</item>
 		<item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
 	</style>
-    <declare-styleable name="CustomBottomSheetBehavior"/>
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr format="dimension" name="behavior_anchorOffset"/>
+        <attr format="enum" name="behavior_defaultState">
+            <enum name="expanded" value="3"/>
+            <enum name="collapsed" value="4"/>
+            <enum name="hidden" value="5"/>
+            <enum name="anchored" value="6"/>
+        </attr>
+        <attr format="boolean" name="behavior_skipAnchored"/>
+    </declare-styleable>
+    <declare-styleable name="CustomNavigationBar">
+        <attr format="reference" name="cnb_tabs"/>
+        <attr format="color" name="cnb_backgroundColor"/>
+        <attr format="dimension" name="cnb_indicatorColor"/>
+        <attr format="dimension" name="cnb_indicatorHeight"/>
+        <attr format="integer" name="cnb_initialIndex"/>
+        <attr format="color" name="cnb_textColor"/>
+        <attr format="color" name="cnb_iconColor"/>
+        <attr format="dimension" name="cnb_iconSize"/>
+        <attr format="dimension" name="cnb_textSize"/>
+        <attr format="enum" name="cnb_activeItemType">
+            <enum name="text" value="0"/>
+            <enum name="icon" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr format="boolean" name="spl_disableSliding"/>
+        <attr format="float" name="spl_expandThreshold"/>
+        <attr format="float" name="spl_collapseThreshold"/>
+    </declare-styleable>
 </resources>
